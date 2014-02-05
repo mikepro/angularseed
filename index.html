@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>A simple app</title>
+</head>
+<body ng-app="myApp" ng-controller="MyController">
+    <h1>A sample app</h1>
+    <div>
+        {{hello}}
+    </div>
+    <div>
+        <h1>This is a list of the data</h1>
+        <ul>
+            <li ng-repeat="item in serverData">{{item.name}} {{item.surname}}</li>
+        </ul>
+    </div>
+    <button ng-click="send()">Click on me to make a request to the server</button>
+    <script type="text/javascript" src="lib/bower_components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="lib/bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="app/js/module.js"></script>
+    <script type="text/javascript" src="app/js/controllers.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "stubData",
+  "version": "0.0.1",
+  "description": "A simple scafolding app",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies":{
+    "karma":"latest",
+    "karma-junit-reporter":"latest",
+    "karma-jasmine":"latest",
+    "karma-firefox-launcher":"latest",
+    "karma-chrome-launcher":"latest"
+  }
+}
